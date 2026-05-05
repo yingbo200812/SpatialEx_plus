@@ -1,0 +1,17 @@
+{
+  "adata1": "/data1/linxin/1/SpatialEx/data/SpatialEx-plus/Human_Breast_Cancer_Rep1_uni_resolution64_panelA.h5ad",
+  "adata2": "/data1/linxin/1/SpatialEx/data/SpatialEx-plus/Human_Breast_Cancer_Rep2_uni_resolution64_panelB.h5ad",
+  "raw_data_root": "/data1/linxin/1/SpatialEx/data/raw_data/HBC",
+  "selection": "/data1/linxin/1/SpatialEx/data/raw_data/HBC/Selection_by_name.csv",
+  "sample1": "Human_Breast_Cancer_Rep1",
+  "sample2": "Human_Breast_Cancer_Rep2",
+  "load_preds": "/data1/linxin/1/gpt/results_seed_hunt",
+  "device": "cuda:0",
+  "outdir": "/data1/linxin/1/gpt/results_v10_final",
+  "ridge_alpha": 1.0,
+  "ridge_folds": 5,
+  "raw_broken_threshold": 0.4,
+  "direct_low_margin": 0.05,
+  "stack_margin": 0.0,
+  "stack_reg": 0.01
+}
